@@ -13,7 +13,8 @@ var boxedString = Object('a');
 
 /**
  * Check failure of by-index access of string characters (IE < 9)
- * and failure of `0 in boxedString` (Rhino)
+ * and failure of `0 in boxedString` (Rhino).
+ *
  * `true` if no failure; otherwise `false`.
  *
  * @type boolean

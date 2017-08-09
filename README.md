@@ -31,7 +31,8 @@ Check support of by-index access of string characters.
 
 ### `module.exports` : <code>boolean</code> ⏏
 Check failure of by-index access of string characters (IE < 9)
-and failure of `0 in boxedString` (Rhino)
+and failure of `0 in boxedString` (Rhino).
+
 `true` if no failure; otherwise `false`.
 
 **Kind**: Exported member  
