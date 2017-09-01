@@ -1,6 +1,6 @@
 {
   "name": "has-boxed-string-x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check support of by-index access of string characters.",
   "homepage": "https://github.com/Xotic750/has-boxed-string-x",
   "author": {
@@ -11,6 +11,7 @@
   "keywords": [
     "string",
     "boxed",
+    "test",
     "module",
     "javascript",
     "nodejs",
