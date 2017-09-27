@@ -1,6 +1,6 @@
 /**
  * @file Check support of by-index access of string characters.
- * @version 1.0.1
+ * @version 1.1.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -9,7 +9,7 @@
 
 'use strict';
 
-var boxedString = Object('a');
+var boxedString = require('cached-constructors-x').Object('a');
 
 /**
  * Check failure of by-index access of string characters (IE < 9)
