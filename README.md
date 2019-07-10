@@ -21,18 +21,16 @@
 <a name="module_has-boxed-string-x"></a>
 
 ## has-boxed-string-x
-Check support of by-index access of string characters.
 
-**Version**: 1.1.1  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
+Check support of by-index access of string characters.
+ 
 <a name="exp_module_has-boxed-string-x--module.exports"></a>
 
 ### `module.exports` : <code>boolean</code> ⏏
+
 Check failure of by-index access of string characters (IE < 9)
 and failure of `0 in boxedString` (Rhino).
 
 `true` if no failure; otherwise `false`.
 
-**Kind**: Exported member  
+**Kind**: Exported member
