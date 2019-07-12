@@ -1,13 +1,14 @@
 /*!
 {
+  "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-10T18:22:08.680Z",
+  "date": "2019-07-12T13:43:46.347Z",
   "describe": "",
   "description": "Check support of by-index access of string characters.",
   "file": "has-boxed-string-x.js",
-  "hash": "0539701a77c1c0f32d1b",
+  "hash": "76081e6792d466ff84c0",
   "license": "MIT",
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -124,15 +125,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
+__webpack_require__.r(__webpack_exports__);
 var string = 'a';
 var boxedString = {}.constructor(string);
 /**
@@ -145,8 +141,9 @@ var boxedString = {}.constructor(string);
  */
 
 var hasBoxed = boxedString[0] === string && 0 in boxedString;
-var _default = hasBoxed;
-exports.default = _default;
+/* harmony default export */ __webpack_exports__["default"] = (hasBoxed);
+
+
 
 /***/ })
 /******/ ]);
