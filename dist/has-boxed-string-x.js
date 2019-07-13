@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-12T13:43:46.347Z",
+  "date": "2019-07-13T02:02:33.298Z",
   "describe": "",
   "description": "Check support of by-index access of string characters.",
   "file": "has-boxed-string-x.js",
   "hash": "76081e6792d466ff84c0",
   "license": "MIT",
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
