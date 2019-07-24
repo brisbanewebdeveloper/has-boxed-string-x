@@ -1,6 +1,6 @@
 {
   "name": "has-boxed-string-x",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "description": "Check support of by-index access of string characters.",
   "homepage": "https://github.com/Xotic750/has-boxed-string-x",
   "author": {
@@ -23,6 +23,7 @@
   ],
   "module": "dist/has-boxed-string-x.esm.js",
   "main": "dist/has-boxed-string-x.js",
+  "jsdelivr": "dist/has-boxed-string-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/has-boxed-string-x.js -o dist/has-boxed-string-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
