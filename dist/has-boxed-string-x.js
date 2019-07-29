@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-29T18:30:09.893Z",
+  "date": "2019-07-29T21:29:55.935Z",
   "describe": "",
   "description": "Check support of by-index access of string characters.",
   "file": "has-boxed-string-x.js",
